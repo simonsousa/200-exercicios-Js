@@ -21,8 +21,10 @@ saberEstação(12);
 saberEstação(4);
 saberEstação(7);
 saberEstação(10);
+saberEstação(0);
+saberEstação(13);
 
-function determinarEstação(mes) {//solução do livro
+function determinarEstação(mes) { //solução do livro
     if( mes < 3 || mes === 12 ) {
         console.log("Verão");
     } else if (mes < 6){
