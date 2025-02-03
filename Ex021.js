@@ -6,25 +6,15 @@
 */ 
 const saberEstação = (mes) => { //minha solução
     if ((mes == 12) || ( mes >= 1 && mes < 3)) {
-        
         console.log('Verão');
-    
     } else if (mes >= 3 && mes < 6) {
-        
         console.log('Outono');
-    
     } else if (mes >= 6 && mes < 9) {
-        
         console.log('Inverno');
-    
     } else if (mes >= 9 && mes < 12) {
-        
         console.log('Primavera');
-    
     } else {
-        
         console.log('mês invalido');
-    
     }
 }   
 saberEstação(12);
@@ -32,3 +22,18 @@ saberEstação(4);
 saberEstação(7);
 saberEstação(10);
 
+function determinarEstação(mes) {//solução do livro
+    if( mes < 3 || mes === 12 ) {
+        console.log("Verão");
+    } else if (mes < 6){
+        console.log("Outono");
+    } else if (mes < 9) {
+        console.log("Inverno");
+    } else {
+        console.log("Primavera")
+    }
+}
+
+determinarEstação(12);
+determinarEstação(4);
+determinarEstação(7);
