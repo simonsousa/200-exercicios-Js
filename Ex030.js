@@ -33,5 +33,7 @@ for( let num = 2; num <= 100; num++ ) // solução do livro
     }
 }
 /*
-Aqui temos um laço for externo que percorre os números de 2 a 100 e um laço for interno que verifica se algum número entre 2 e o número em questão(excluindo-0) é divisor desse número. Se encontrar algum divisor, a variável isPrime é definida como false e o laço interno é interrompido. Se nenhum divisor for encontrado, isPrime permanecerá true e o número será impresso.
+
+    Aqui temos um laço for externo que percorre os números de 2 a 100 e um laço for interno que verifica se algum número entre 2 e o número em questão(excluindo-0) é divisor desse número. Se encontrar algum divisor, a variável isPrime é definida como false e o laço interno é interrompido. Se nenhum divisor for encontrado, isPrime permanecerá true e o número será impresso.
+
 */ 
