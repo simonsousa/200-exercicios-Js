@@ -8,7 +8,7 @@ function localizarPrimos(num) {
                 break;
             }
         }
-        if(ehPrimo) {
+        if (ehPrimo) {
             console.log(`${n} é primo`);
         }
     }
