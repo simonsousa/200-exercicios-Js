@@ -1,5 +1,5 @@
-function localizarPrimos(num) {
-
+function localizarPrimos(num) 
+{
     for ( let n = 2; n <= num; n++ ) {
         let ehPrimo = true;
         for ( let div = 2; div < n; div++) {
