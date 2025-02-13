@@ -18,7 +18,6 @@ for( let i = 2; i <= 100; i++ ) { // minha solução
 
 console.log('--------------------------')
 
-
 for( let num = 2; num <= 100; num++ ) // solução do livro
 {
     let isPrime = true;
